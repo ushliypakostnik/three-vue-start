@@ -60,6 +60,7 @@ export default {
     this.init();
     this.animate();
 
+    // remove this void in real project
     loaderDispatchHelper(this.$store, 'emptyProjectField');
   },
 

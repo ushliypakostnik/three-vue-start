@@ -37,9 +37,6 @@ const mutations = {
     stateCopy = Object.assign({}, state);
     delete stateCopy.isGameLoaded;
     result = Object.values(stateCopy).every(field => field === true);
-
-    console.log('AAAAAAAAAAAAAAAAAAAAAAA', result);
-
     if (result) state.isGameLoaded = true;
   },
 };
