@@ -33,7 +33,7 @@ export const DESIGN = {
   COLORS: {
     primary0x: 0x621211,
     fog0x: 0x615ebc,
-    background0x: 0x4542a0,
+    background0x: 0x88ccff,
     white0x: 0xffffff,
     black0x: 0x111111,
   },
@@ -47,11 +47,13 @@ export const DESIGN = {
       max: 2000,
     },
   },
+  GRAVITY: 30,
   MESSAGES_TIMEOUT: 3000,
   ANIMATION_TIMEOUT: 300,
   HERO: {
-    height: 3, // средний рост челевеческой особи, мужики 1.7, бабы 1.6
-    start: [size(-0.33), size(0.53)],
+    HEIGHT: 1.65, // средний рост челевеческой особи, мужики 1.7, бабы 1.6
+    SPEED: 25,
+    JUMP: 15,
   },
 };
 

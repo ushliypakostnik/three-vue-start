@@ -1,12 +1,8 @@
 const initialState = {
   isGameLoaded: false,
 
-  // remove this field in real project
-  emptyProjectField: false,
-
-  // isElementLoaded: false,
-
-  // isElementBuilt: false,
+  isWorldLoaded: false,
+  isConcreteLoaded: false,
 };
 
 const state = initialState;
