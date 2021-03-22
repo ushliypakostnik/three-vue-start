@@ -2,7 +2,7 @@ const initialState = {
   isGameLoaded: false,
 
   isWorldLoaded: false,
-  isConcreteLoaded: false,
+  // isConcreteLoaded: false,
 };
 
 const state = initialState;

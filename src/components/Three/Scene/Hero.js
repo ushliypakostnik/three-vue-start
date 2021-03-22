@@ -10,9 +10,8 @@ function Hero() {
   const playerDirection = new Three.Vector3(0, 0, 0);
 
   this.init = (scope) => {
-    // TODO: для правильной модели по росту
-    // playerCollider = new Capsule(new Three.Vector3(0, DESIGN.HERO.HEIGHT + 0.1, 0), new Three.Vector3(0, DESIGN.HERO.HEIGHT, 0), DESIGN.HERO.HEIGHT / 2);
-    playerCollider = new Capsule(new Three.Vector3(0, 0.35, 0), new Three.Vector3(0, 1, 0), 0.35);
+    // playerCollider = new Capsule(new Three.Vector3(0, 0.35, 0), new Three.Vector3(0, 1, 0), 0.35);
+    playerCollider = new Capsule(new Three.Vector3(0, DESIGN.HERO.HEIGHT / 2, 0), new Three.Vector3(0, DESIGN.HERO.HEIGHT, 0), DESIGN.HERO.HEIGHT / 2);
     playerDirection.copy(scope.playerStartDirection);
     playerVelocity = new Three.Vector3();
 
